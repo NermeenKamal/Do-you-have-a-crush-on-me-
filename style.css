@@ -31,13 +31,17 @@ h2 {
 }
 
 .btn-group {
+    margin: auto;
     margin-top: 50px;
-    position: relative;
     height: 40px;
+    display: flex;
+    align-items: center;
+    width: 268px;
+    justify-content: space-around;
 }
 
 button {
-    width: 150px;
+    width: 120px;
     height: inherit;
     color: white;
     font-size: 1.2em;
@@ -50,16 +54,10 @@ button {
 
 button.yes-btn {
     background: #e94d58;
-    position: absolute;
-    left: 114px;
 }
 
 button.no-btn {
-    position: absolute;
-    left: 66%;
     background: white;
     color: #e94d58;
     position: absolute;
-    left: 47%;
-    transform: translateX(-50%);
 }
