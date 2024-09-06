@@ -50,9 +50,13 @@ button {
 
 button.yes-btn {
     background: #e94d58;
+    position: absolute;
+    left: 66px;
 }
 
 button.no-btn {
+    position: absolute;
+    left: 66%;
     background: white;
     color: #e94d58;
     position: absolute;
